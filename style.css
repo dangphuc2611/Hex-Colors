@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+h1 {
+  animation: colorChange 5s infinite alternate;
+}
+
+@keyframes colorChange {
+  0%{color: indigo;}
+  20%{color: blue;}
+  40%{color: green;}
+  60%{color: yellow;}
+  80%{color: orange;}
+  100%{color: red;}
+}
