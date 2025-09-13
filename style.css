@@ -17,11 +17,11 @@ button {
   color: #fff;
 }
 
-h1 {
-  animation: colorChange 5s infinite alternate;
+h1{
+  animation: changeColor 5s infinite alternate;
 }
 
-@keyframes colorChange {
+@keyframes changeColor {
   0%{color: indigo;}
   20%{color: blue;}
   40%{color: green;}
